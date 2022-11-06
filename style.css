@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+}
+
+.weather-content{
+    background-color: #4b4c7d;
+    color: white;
+    max-width: 400px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+.weather-content h2{
+    font-size: 37px;
+    margin-top: 10px;
+}
+
+/* .result{
+    background-color: red;
+} */
+
+.result img{
+    /* background-color: blue; */
+    margin-top: -13px;
+}
+
+.result h5{
+    font-size: 25px;
+    margin-top: -20px;
+
+}
+
+.result h2{
+    font-size: 55px;
+    margin-top: -3px;
+    
+}
+
+.result p{
+    font-weight: 400;
+    margin-top: -25px;
+    margin-bottom: 40px;
+    color: rgba(255, 255, 255, 0.66);
+}
+
+form{
+    /* background-color: bisque; */
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+#city{
+    width: 380px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+
+#country{
+    width: 385px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 0px 5px;
+    color: rgba(0, 0, 0, 0.59);
+
+}
+
+#btn-submit{
+    width: 380px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #2EC4B6;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin-top: 15px;
+    transition: all .4s;
+}
+
+#btn-submit:hover{
+    width: 200px;
+}
+
+.alert-message{
+    color: red;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:760px) {
+    #btn-submit:hover{
+        width: 380px;
+    }
+}
